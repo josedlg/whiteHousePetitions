@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449C955423E1049100DE794B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449C955323E1049100DE794B /* AppDelegate.swift */; };
+		449C955623E1049100DE794B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449C955523E1049100DE794B /* SceneDelegate.swift */; };
+		449C955823E1049100DE794B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449C955723E1049100DE794B /* ViewController.swift */; };
+		449C955B23E1049100DE794B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449C955923E1049100DE794B /* Main.storyboard */; };
+		449C955D23E104BA00DE794B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449C955C23E104BA00DE794B /* Assets.xcassets */; };
+		449C956023E104BA00DE794B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449C955E23E104BA00DE794B /* LaunchScreen.storyboard */; };
+		449C956B23E104BA00DE794B /* whiteHousePetitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449C956A23E104BA00DE794B /* whiteHousePetitionsTests.swift */; };
+		449C957623E104BB00DE794B /* whiteHousePetitionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449C957523E104BB00DE794B /* whiteHousePetitionsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		449C956723E104BA00DE794B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 449C954823E1049100DE794B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449C954F23E1049100DE794B;
+			remoteInfo = whiteHousePetitions;
+		};
+		449C957223E104BB00DE794B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 449C954823E1049100DE794B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449C954F23E1049100DE794B;
+			remoteInfo = whiteHousePetitions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		449C955023E1049100DE794B /* whiteHousePetitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whiteHousePetitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		449C955323E1049100DE794B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		449C955523E1049100DE794B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		449C955723E1049100DE794B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		449C955A23E1049100DE794B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		449C955C23E104BA00DE794B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		449C955F23E104BA00DE794B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		449C956123E104BA00DE794B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449C956623E104BA00DE794B /* whiteHousePetitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whiteHousePetitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		449C956A23E104BA00DE794B /* whiteHousePetitionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whiteHousePetitionsTests.swift; sourceTree = "<group>"; };
+		449C956C23E104BA00DE794B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449C957123E104BB00DE794B /* whiteHousePetitionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whiteHousePetitionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		449C957523E104BB00DE794B /* whiteHousePetitionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whiteHousePetitionsUITests.swift; sourceTree = "<group>"; };
+		449C957723E104BB00DE794B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449C954D23E1049100DE794B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449C956323E104BA00DE794B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449C956E23E104BB00DE794B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		449C954723E1049100DE794B = {
+			isa = PBXGroup;
+			children = (
+				449C955223E1049100DE794B /* whiteHousePetitions */,
+				449C956923E104BA00DE794B /* whiteHousePetitionsTests */,
+				449C957423E104BB00DE794B /* whiteHousePetitionsUITests */,
+				449C955123E1049100DE794B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		449C955123E1049100DE794B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				449C955023E1049100DE794B /* whiteHousePetitions.app */,
+				449C956623E104BA00DE794B /* whiteHousePetitionsTests.xctest */,
+				449C957123E104BB00DE794B /* whiteHousePetitionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		449C955223E1049100DE794B /* whiteHousePetitions */ = {
+			isa = PBXGroup;
+			children = (
+				449C955323E1049100DE794B /* AppDelegate.swift */,
+				449C955523E1049100DE794B /* SceneDelegate.swift */,
+				449C955723E1049100DE794B /* ViewController.swift */,
+				449C955923E1049100DE794B /* Main.storyboard */,
+				449C955C23E104BA00DE794B /* Assets.xcassets */,
+				449C955E23E104BA00DE794B /* LaunchScreen.storyboard */,
+				449C956123E104BA00DE794B /* Info.plist */,
+			);
+			path = whiteHousePetitions;
+			sourceTree = "<group>";
+		};
+		449C956923E104BA00DE794B /* whiteHousePetitionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				449C956A23E104BA00DE794B /* whiteHousePetitionsTests.swift */,
+				449C956C23E104BA00DE794B /* Info.plist */,
+			);
+			path = whiteHousePetitionsTests;
+			sourceTree = "<group>";
+		};
+		449C957423E104BB00DE794B /* whiteHousePetitionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				449C957523E104BB00DE794B /* whiteHousePetitionsUITests.swift */,
+				449C957723E104BB00DE794B /* Info.plist */,
+			);
+			path = whiteHousePetitionsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		449C954F23E1049100DE794B /* whiteHousePetitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449C957A23E104BB00DE794B /* Build configuration list for PBXNativeTarget "whiteHousePetitions" */;
+			buildPhases = (
+				449C954C23E1049100DE794B /* Sources */,
+				449C954D23E1049100DE794B /* Frameworks */,
+				449C954E23E1049100DE794B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = whiteHousePetitions;
+			productName = whiteHousePetitions;
+			productReference = 449C955023E1049100DE794B /* whiteHousePetitions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		449C956523E104BA00DE794B /* whiteHousePetitionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449C957D23E104BB00DE794B /* Build configuration list for PBXNativeTarget "whiteHousePetitionsTests" */;
+			buildPhases = (
+				449C956223E104BA00DE794B /* Sources */,
+				449C956323E104BA00DE794B /* Frameworks */,
+				449C956423E104BA00DE794B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				449C956823E104BA00DE794B /* PBXTargetDependency */,
+			);
+			name = whiteHousePetitionsTests;
+			productName = whiteHousePetitionsTests;
+			productReference = 449C956623E104BA00DE794B /* whiteHousePetitionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		449C957023E104BB00DE794B /* whiteHousePetitionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449C958023E104BB00DE794B /* Build configuration list for PBXNativeTarget "whiteHousePetitionsUITests" */;
+			buildPhases = (
+				449C956D23E104BB00DE794B /* Sources */,
+				449C956E23E104BB00DE794B /* Frameworks */,
+				449C956F23E104BB00DE794B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				449C957323E104BB00DE794B /* PBXTargetDependency */,
+			);
+			name = whiteHousePetitionsUITests;
+			productName = whiteHousePetitionsUITests;
+			productReference = 449C957123E104BB00DE794B /* whiteHousePetitionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		449C954823E1049100DE794B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = DLGTECH;
+				TargetAttributes = {
+					449C954F23E1049100DE794B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					449C956523E104BA00DE794B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 449C954F23E1049100DE794B;
+					};
+					449C957023E104BB00DE794B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 449C954F23E1049100DE794B;
+					};
+				};
+			};
+			buildConfigurationList = 449C954B23E1049100DE794B /* Build configuration list for PBXProject "whiteHousePetitions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 449C954723E1049100DE794B;
+			productRefGroup = 449C955123E1049100DE794B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				449C954F23E1049100DE794B /* whiteHousePetitions */,
+				449C956523E104BA00DE794B /* whiteHousePetitionsTests */,
+				449C957023E104BB00DE794B /* whiteHousePetitionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		449C954E23E1049100DE794B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449C956023E104BA00DE794B /* LaunchScreen.storyboard in Resources */,
+				449C955D23E104BA00DE794B /* Assets.xcassets in Resources */,
+				449C955B23E1049100DE794B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449C956423E104BA00DE794B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449C956F23E104BB00DE794B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449C954C23E1049100DE794B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449C955823E1049100DE794B /* ViewController.swift in Sources */,
+				449C955423E1049100DE794B /* AppDelegate.swift in Sources */,
+				449C955623E1049100DE794B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449C956223E104BA00DE794B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449C956B23E104BA00DE794B /* whiteHousePetitionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449C956D23E104BB00DE794B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449C957623E104BB00DE794B /* whiteHousePetitionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		449C956823E104BA00DE794B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449C954F23E1049100DE794B /* whiteHousePetitions */;
+			targetProxy = 449C956723E104BA00DE794B /* PBXContainerItemProxy */;
+		};
+		449C957323E104BB00DE794B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449C954F23E1049100DE794B /* whiteHousePetitions */;
+			targetProxy = 449C957223E104BB00DE794B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		449C955923E1049100DE794B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449C955A23E1049100DE794B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		449C955E23E104BA00DE794B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449C955F23E104BA00DE794B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		449C957823E104BB00DE794B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		449C957923E104BB00DE794B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		449C957B23E104BB00DE794B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G787PCNL33;
+				INFOPLIST_FILE = whiteHousePetitions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DLGTECH.whiteHousePetitions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		449C957C23E104BB00DE794B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G787PCNL33;
+				INFOPLIST_FILE = whiteHousePetitions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DLGTECH.whiteHousePetitions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		449C957E23E104BB00DE794B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G787PCNL33;
+				INFOPLIST_FILE = whiteHousePetitionsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DLGTECH.whiteHousePetitionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whiteHousePetitions.app/whiteHousePetitions";
+			};
+			name = Debug;
+		};
+		449C957F23E104BB00DE794B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G787PCNL33;
+				INFOPLIST_FILE = whiteHousePetitionsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DLGTECH.whiteHousePetitionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whiteHousePetitions.app/whiteHousePetitions";
+			};
+			name = Release;
+		};
+		449C958123E104BB00DE794B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G787PCNL33;
+				INFOPLIST_FILE = whiteHousePetitionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DLGTECH.whiteHousePetitionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = whiteHousePetitions;
+			};
+			name = Debug;
+		};
+		449C958223E104BB00DE794B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G787PCNL33;
+				INFOPLIST_FILE = whiteHousePetitionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DLGTECH.whiteHousePetitionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = whiteHousePetitions;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		449C954B23E1049100DE794B /* Build configuration list for PBXProject "whiteHousePetitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449C957823E104BB00DE794B /* Debug */,
+				449C957923E104BB00DE794B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449C957A23E104BB00DE794B /* Build configuration list for PBXNativeTarget "whiteHousePetitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449C957B23E104BB00DE794B /* Debug */,
+				449C957C23E104BB00DE794B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449C957D23E104BB00DE794B /* Build configuration list for PBXNativeTarget "whiteHousePetitionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449C957E23E104BB00DE794B /* Debug */,
+				449C957F23E104BB00DE794B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449C958023E104BB00DE794B /* Build configuration list for PBXNativeTarget "whiteHousePetitionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449C958123E104BB00DE794B /* Debug */,
+				449C958223E104BB00DE794B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 449C954823E1049100DE794B /* Project object */;
+}
